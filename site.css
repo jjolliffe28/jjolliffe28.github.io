@@ -1,0 +1,47 @@
+body {
+    color: white;
+    background-color: #484043;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 50px;
+    color: #d23641;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: bold;
+}
+
+
+/* Tabbing */
+
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+body{
+
+}
